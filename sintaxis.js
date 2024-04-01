@@ -17,8 +17,18 @@ Este es un comentario de varias lineas
 */
 
 // ------- VARIABLES --------------------
-let miVariable = "JavaScript"; //Variable let para asignar valor a la variable.
-const miConstante = "Hello "; //Constante con el valor de Pi en JavaScript.
+let myVar = "JavaScript"; //Variable let para asignar valor a la variable.
+const myConst = "Hello "; //Constante con el valor de Pi en JavaScript.
 
 // ------- DATOS PRIMITIVOS -------------
-console.log(miConstante + miVariable);
+let myString = "Cadena de Texto";
+let myNumber = 42;
+let myBoolean = true;
+let nullValue = null;
+let undefinedValue = undefined;
+let NaNvalue = NaN;
+let myBigNumber = bigInt("1234567890123454756564968684"); //Se utiliza cuando los números enteros son cantidades muy grandes.
+let mySymbol = Symbol('my symbol'); //se utilizan a menudo para añadir claves de propiedades únicas a un objeto que no sean iguales a las claves que cualquier otro código pueda añadir al objeto.
+
+// Imprimir en pantalla el texto.
+console.log(myConst + myVar);
